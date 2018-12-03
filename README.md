@@ -25,7 +25,7 @@ a code of "alpha" you should store its default layout in app/views/spree/layouts
 
 4. All orders are associated with the store / domain that they were placed on.
 
-5. Google analytics trackers can be associated with a store.
+~~5. Google analytics trackers can be associated with a store.~~
 
 ## Installation
 
