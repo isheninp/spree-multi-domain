@@ -6,11 +6,6 @@ module SpreeMultiDomain
 
       receiver.send :before_action, :add_current_store_id_to_params
       receiver.send :helper_method, :current_store
-      receiver.send :helper_method, :current_tracker
-    end
-
-    def current_tracker
-      @current_tracker ||= Spree::Tracker.current(request.env['SERVER_NAME'])
     end
 
     def get_taxonomies
